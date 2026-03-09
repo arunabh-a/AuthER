@@ -1,6 +1,8 @@
-# AuthER - Full Stack Authentication App
+# AuthER - Custom Authentication Service
 
-A modern full-stack application with secure authentication using Node.js/Express backend and React frontend.
+A modern full-stack application with secure authentication using Node.js/Express.
+
+![AuthER Authentication Flow](./auth-flow.png)
 
 ## 🚀 Features
 
@@ -13,20 +15,12 @@ A modern full-stack application with secure authentication using Node.js/Express
 
 ## 🛠️ Tech Stack
 
-### Backend
 - **Node.js** with **Express**
 - **TypeScript** for type safety
 - **Prisma ORM** with **PostgreSQL**
 - **JWT** for access tokens
 - **Argon2** for password hashing
 - **HttpOnly cookies** for refresh tokens
-
-### Frontend
-- **React 19** with **TypeScript**
-- **Vite** for fast development
-- **React Router** for navigation
-- **Shadcn/UI** components
-- **Tailwind CSS** for styling
 
 ## 📦 Installation & Setup
 
@@ -37,11 +31,11 @@ A modern full-stack application with secure authentication using Node.js/Express
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/arunabh-a/Auth-Bare.git
-cd Auth-Bare
+git clone https://github.com/arunabh-a/AuthER.git
+cd AuthER
 ```
 
-### 2. Backend Setup
+### 2. Setup
 
 ```bash
 cd server
@@ -71,17 +65,8 @@ npx prisma migrate dev
 npm run dev
 ```
 
-### 3. Frontend Setup
+### 3. Access Application
 
-```bash
-cd ../client
-npm install
-npm run dev
-```
-
-### 4. Access Application
-
-- **Frontend**: http://localhost:5173
 - **Backend API**: http://localhost:4000
 - **Database**: Prisma Studio - `npx prisma studio`
 
@@ -106,7 +91,7 @@ npm run dev
 
 ## 🧪 Testing
 
-Use the provided Postman collection (`AuthER-API.postman_collection.json`) to test all endpoints.
+Use the provided Postman collection (`auther-API.postman_collection.json`) to test all endpoints.
 
 ## 🔒 Security Features
 
@@ -132,14 +117,6 @@ npm run build        # Build for production
 npm run start        # Start production server
 ```
 
-### Frontend Development
-```bash
-cd client
-npm run dev          # Start development server
-npm run build        # Build for production
-npm run preview      # Preview production build
-```
-
 ### Database Operations
 ```bash
 cd server
@@ -152,23 +129,14 @@ npx prisma generate           # Regenerate Prisma client
 ## 📊 Project Structure
 
 ```
-AuthER/
-├── server/                    # Backend API
-│   ├── src/
-│   │   ├── middleware/        # Auth middleware
-│   │   ├── routes/           # API routes
-│   │   ├── utils/            # JWT & password utilities
-│   │   └── index.ts          # Server entry point
-│   ├── prisma/               # Database schema & migrations
-│   └── package.json
-├── client/                    # Frontend React app
-│   ├── src/
-│   │   ├── components/       # UI components
-│   │   ├── hooks/            # Custom hooks
-│   │   ├── pages/            # Route components
-│   │   ├── service/          # API service layer
-│   │   └── App.tsx           # App entry point
-│   └── package.json
+AuthER/                  
+├── src/
+│   ├── middleware/        # Auth middleware
+│   ├── routes/           # API routes
+│   ├── utils/            # JWT & password utilities
+│   └── index.ts          # Server entry point
+├── prisma/               # Database schema & migrations
+├── package.json
 └── README.md
 ```
 
