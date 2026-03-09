@@ -2,7 +2,7 @@
 
 A modern full-stack application with secure authentication using Node.js/Express.
 
-![AuthER Authentication Flow](./auth-flow.png)
+![AuthER Authentication Flow](/public/auth-flow.png)
 
 ## 🚀 Features
 
