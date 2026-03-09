@@ -1,14 +1,14 @@
 {
-    "name": "colbin-server",
+    "name": "auther-server",
     "version": "1.0.0",
-    "description": "Backend API for Colbin Recruitment",
-    "homepage": "https://github.com/arunabh-a/colbin-assignment#readme",
+    "description": "Backend API for AuthER",
+    "homepage": "https://github.com/arunabh-a/Auth-Bare#readme",
     "bugs": {
-        "url": "https://github.com/arunabh-a/colbin-assignment/issues"
+        "url": "https://github.com/arunabh-a/Auth-Bare/issues"
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/arunabh-a/colbin-assignment.git"
+        "url": "git+https://github.com/arunabh-a/Auth-Bare.git"
     },
     "license": "ISC",
     "author": "arunabh",

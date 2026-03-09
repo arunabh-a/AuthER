@@ -59,7 +59,7 @@ export const sendVerificationEmail = async (email: string, name: string, verific
         subject: 'Verify your email address',
         html: `
           <div style="max-width: 600px; margin: 0 auto; font-family: Arial, sans-serif;">
-            <h2 style="color: #333; text-align: center;">Welcome to Colbin, ${name}!</h2>
+            <h2 style="color: #333; text-align: center;">Welcome to AuthER, ${name}!</h2>
             
             <div style="background-color: #f9f9f9; padding: 20px; border-radius: 10px; margin: 20px 0;">
               <p style="color: #666; font-size: 16px;">
@@ -86,13 +86,13 @@ export const sendVerificationEmail = async (email: string, name: string, verific
               
               <p style="color: #999; font-size: 12px; margin-top: 20px;">
                 This verification link will expire in 24 hours for security purposes.
-                If you didn't create an account with Colbin, please ignore this email.
+                If you didn't create an account with AuthER, please ignore this email.
               </p>
             </div>
             
             <div style="text-align: center; margin-top: 30px; padding: 20px; border-top: 1px solid #ddd;">
               <p style="color: #999; font-size: 12px;">
-                © 2024 Colbin. All rights reserved.
+                © 2024 AuthER. All rights reserved.
               </p>
             </div>
           </div>

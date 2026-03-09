@@ -1,7 +1,7 @@
 {
   "info": {
-    "name": "Colbin Recruitment API",
-    "description": "Authentication and user management API for the Colbin recruitment platform",
+    "name": "AuthER API",
+    "description": "Authentication and user management API for the AuthER platform",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "variable": [

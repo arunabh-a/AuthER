@@ -1,4 +1,4 @@
-# Colbin Test - Full Stack Authentication App
+# AuthER - Full Stack Authentication App
 
 A modern full-stack application with secure authentication using Node.js/Express backend and React frontend.
 
@@ -37,8 +37,8 @@ A modern full-stack application with secure authentication using Node.js/Express
 
 ### 1. Clone Repository
 ```bash
-git clone https://github.com/arunabh-a/Colbin-Assignment.git
-cd Colbin-Test
+git clone https://github.com/arunabh-a/Auth-Bare.git
+cd Auth-Bare
 ```
 
 ### 2. Backend Setup
@@ -51,7 +51,7 @@ npm install
 Create `.env` file in server directory:
 ```env
 # Database
-DATABASE_URL="postgresql://username:password@localhost:5432/colbin_db"
+DATABASE_URL="postgresql://username:password@localhost:5432/AuthER_db"
 
 # JWT
 JWT_SECRET="your-super-secret-jwt-key-here"
@@ -106,7 +106,7 @@ npm run dev
 
 ## 🧪 Testing
 
-Use the provided Postman collection (`Colbin-API.postman_collection.json`) to test all endpoints.
+Use the provided Postman collection (`AuthER-API.postman_collection.json`) to test all endpoints.
 
 ## 🔒 Security Features
 
@@ -152,7 +152,7 @@ npx prisma generate           # Regenerate Prisma client
 ## 📊 Project Structure
 
 ```
-Colbin-Test/
+AuthER/
 ├── server/                    # Backend API
 │   ├── src/
 │   │   ├── middleware/        # Auth middleware
